@@ -1,0 +1,215 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+/* top header css */
+#nav-bar{
+    font-family: 'Merriweather', serif;
+    /* height:70px; */
+    width:100%;
+    background-color: #ec830a;
+    color:white;
+    position: fixed;
+    z-index: 1;
+    
+}
+#nav-bar button{
+    color:black;
+}
+.bar{
+    color:yellow;
+}
+#mynavbar a{
+    color:#fff;
+}
+.formbtn{
+    justify-content: end;
+    background-color: transparent;
+}
+.formbtn button{
+    background-color: #ec830a;
+    color:white;
+    border-radius:35px;
+    outline:none;
+    border:none;
+    border:2px solid white;
+    cursor: pointer;
+}
+.formbtn input{
+    border-radius: 20px;
+    outline:none;
+    border:none;
+}
+
+/* sidebAr css  */
+
+.side-tag{
+    position:fixed;
+    top:35%;
+    right:0;
+    /* position:absolute; */
+    z-index: 2;
+    background-color: #fff;
+    height:140px;
+    width:50px;
+    padding:5px 0px;
+    text-align: center;
+}
+.side-tag a{
+    display: inline-block;
+    color:#ec830a;
+    border-bottom: 2px solid #ec830a;
+}
+.side-tag:hover{
+    background-color:black;
+    color:#ec830a;
+}
+.login{
+    padding:10px 0px;
+}
+/* front page css */
+
+.main{
+    height:690px;
+    background-image:url("../images/SL_043021_42650_12.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color:white;
+}
+.main-head{
+    position: relative;
+    top: 50%;                       
+    transform: translate(0, -50%);
+}
+.main-head h1{
+    font-size:4rem;
+}
+.main-head p{
+    font-size: 22px;
+    margin-top: 20px;
+}
+.main-head button{
+    height:60px;
+    width:150px;
+    border:none;
+    border-radius:40px 0px 40px 0px;
+    font-size: 1.5rem;
+    color:white;
+    background-color: rgb(236, 131, 10);
+    margin-top: 25px;
+}
+.update{
+    display:flex;
+    background-color: rgb(236, 131, 10);
+    padding:20px 0px;
+}
+.about-box{
+    margin-top:70px;
+}
+.about-box p{
+    font-size:20px;
+}
+
+.vid video{ 
+    width:80%;
+    height:200px;
+    margin-top:50px;
+}
+.formcs{
+    background-color: rgb(240, 239, 239);
+    padding:20px;
+}
+.formcs input{
+    outline:none;
+}
+.formcs button{
+    background-color:#ec830a;
+    border:none;
+    margin-left:5px;
+    outline:none;
+}
+.offer{
+    background-color: rgba(228, 127, 11, 0.829);
+    color: #fff;
+    padding:30px 50px;
+}
+
+/* awards css  */
+
+.awards{
+    margin:50px auto;
+    padding:40px;
+    text-align: center;
+    background-color:rgba(252, 250, 247, 0.829);
+}
+.awards h1{
+    padding-bottom: 60px;
+    margin-bottom: 20px;
+}
+.award-desc{
+    text-align: start;
+    padding:20px 10px;
+}
+.award-desc span{
+    color:#ec830a;
+    font-size:22px;
+}
+.award-desc p{
+    color: black;
+    margin-top: 10px;
+    font-size:18px;
+}
+/* placements css */
+
+.pment{
+    margin-bottom:80px;
+}
+.pment h1{
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+/* .recoginition part css  */
+
+.recoginition{
+    background-color: rgba(228, 127, 11, 0.829);
+    margin: 60px 0px;
+    padding: 40px 0px;
+    text-align: center;
+}
+.recoginition h2{
+    margin:30px;
+    font-size: 3rem;
+    color:white;
+}
+.reco-box{
+    padding:50px 30px;
+}
+.footer{
+    background-color:rgb(16, 21, 66);
+    color:white;
+    padding:50px 50px 0px;
+}
+.footermain h2{
+    color:rgba(228, 127, 11, 0.829);
+
+}
+.footermain ul{
+    padding:0px;
+    margin:0px;
+}
+.footerlast p{
+    text-align: center;
+    margin:0px;
+    padding:10px 0px;
+}
+
+

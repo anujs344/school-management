@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url("../images/network-mesh-wire-digital-technology-background/17973908.jpg");
+    background-size:cover;
+
+}
+#nav-bar{
+    background-color:black;
+}
+#mynavbar a{
+    color:#ec830a;
+}
+.course-head{
+    padding-top: 70px;
+    text-align: center;
+}
+.course-head p{
+    font-size:18px;
+    padding:10px 0px;
+}
+.all-course{
+    padding:20px;
+    background-color: white;
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.course-box{
+    flex-basis:20%;
+    /* padding: 10px; */
+}
+.course-img{
+    height:300px;
+    width:330px;
+    position: relative;
+    transition: 0.5s;
+}
+.course-img:hover {
+        padding-left:5px;
+}
+.course-box img{
+    height: 100%;
+    width:100%;
+    position:absolute;
+}
+.course-desc{
+    text-align: start;
+    color:#ec830a;
+    padding:10px;
+}
+.course-desc ul{
+    padding:0px;
+}
+.course-desc button{
+    padding:10px;
+    font-size:18px;
+    border-radius: 60px;
+    border:none;
+}
